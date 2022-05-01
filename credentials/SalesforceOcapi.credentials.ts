@@ -4,9 +4,8 @@ import {
 } from 'n8n-workflow';
 
 export class SalesforceOcapi implements ICredentialType {
-	name = 'salesfoce-ocapi';
+	name = 'salesforceOcapi';
 	displayName = 'Salesforce OpenCommerce API';
-	documentationUrl = 'salesforce';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Environment Type',
@@ -57,8 +56,8 @@ export class SalesforceOcapi implements ICredentialType {
 			displayName: 'Version',
 			name: 'version',
 			type: 'string',
-			default: '21_1',
+			default: 'v21_1',
 			required: true,
-		}
+		},
 	];
 }

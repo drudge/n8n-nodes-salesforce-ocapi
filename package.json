@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-salesforce-ocapi",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "n8n node for Salesforce Commerce Cloud using the Open Commerce API",
     "license": "MIT",
     "homepage": "https://github.com/drudge/n8n-nodes-salesforce-ocapi",
@@ -24,6 +24,15 @@
     },
     "files": [
         "dist"
+    ],
+    "keywords": [
+        "n8n",
+        "node",
+        "salesforce",
+        "ocapi",
+        "b2c",
+        "n8n-node",
+        "n8n-community-node-package"
     ],
     "n8n": {
         "credentials": [
